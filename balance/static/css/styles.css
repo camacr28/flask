@@ -29,3 +29,12 @@ table.paper {
 table.paper .titulo-tabla {
     border-bottom: solid thin #19a187;
 }
+
+.pie-pagina {
+    padding: 20px;
+    border-top: solid thin #b8174c;
+}
+
+.numero {
+    text-align: right;
+}
