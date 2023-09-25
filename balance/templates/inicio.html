@@ -5,27 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Balance - Lista de movimientos</title>
+    <link rel="stylesheet" href="static\css\flat-remix.css">
+    <link rel="stylesheet" href="static\css\styles.css">
 </head>
 
 <body>
     <header>Balance de movimientos</header>
-    <nav>Inicio | Nuevo</nav>
-    <table>
-        <tr>
-            <th>Fecha</th>
-            <th>Concepto</th>
-            <th>Tipo</th>
-            <th>Cantidad</th>
-        </tr>
-        {%for m in movs %}
-        <tr>
-            <td>{{ m.fecha }}</td>
-            <td>{{ m.concepto }}</td>
-            <td>{{ m.ingreso_gasto }}</td>
-            <td>{{ m.cantidad }}</td>
-        </tr>
-        {% endfor %}
-    </table>
+    <nav class="navbar">Inicio | Nuevo</nav>
+    <main>
+        <table class="paper">
+            <tr>
+                <th class="titulo-tabla">Fecha</th>
+                <th class="titulo-tabla">Concepto</th>
+                <th class="titulo-tabla">Tipo</th>
+                <th class="titulo-tabla">Cantidad</th>
+            </tr>
+            {%for m in movs %}
+            <tr>
+                <td>{{ m.fecha }}</td>
+                <td>{{ m.concepto }}</td>
+                <td>{{ m.ingreso_gasto }}</td>
+                <td>{{ m.cantidad }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </main>
     <footer>2023 Bootcamp Cero XVII</footer>
 </body>
 

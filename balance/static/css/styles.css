@@ -1,0 +1,31 @@
+header {
+    background-color: #b8174c;
+    color: white;
+    height: 50px;
+    padding-left: 20px;
+    line-height: 50px;
+    font-size: large;
+
+}
+
+.navbar {
+    background-color: #19a187;
+    color: #ffffff;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 20px;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+table.paper {
+    width: 100%;
+}
+
+table.paper .titulo-tabla {
+    border-bottom: solid thin #19a187;
+}

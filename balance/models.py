@@ -19,7 +19,7 @@ class ListaMovimientos:
 
     def leer_desde_archivo(self):
         self.lista_movimientos = []
-        with open(RUTA_FICHERO, 'r') as fichero:
+        with open(RUTA_FICHERO, 'r', encoding="UTF-8") as fichero:
             reader = csv.DictReader(fichero)
             for fila in reader:
                 self.lista_movimientos.append(fila)
