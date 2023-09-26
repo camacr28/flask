@@ -43,5 +43,8 @@ table.paper .titulo-tabla {
     text-align: center;
     color: #666;
     padding: 20px;
+}
 
+.errors {
+    color: #b8174c;
 }
