@@ -16,6 +16,11 @@ header {
     padding-left: 20px;
 }
 
+.navbar a,
+.navbar a:active .navbar a:focus .navbar a:visited .navbar a:hover {
+    color: white;
+}
+
 main {
     max-width: 600px;
     margin: auto;
