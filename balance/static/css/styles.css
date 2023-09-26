@@ -38,3 +38,10 @@ table.paper .titulo-tabla {
 .numero {
     text-align: right;
 }
+
+.lista_vacia {
+    text-align: center;
+    color: #666;
+    padding: 20px;
+
+}
