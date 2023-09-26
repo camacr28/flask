@@ -7,20 +7,20 @@ from . import RUTA_FICHERO
 class Movimiento:
     def __init__(self, fecha, concepto, tipo, cantidad):
 
-        self.errores = []
+        self.errors = []
 
         try:
             self.fecha = date.fromisoformat(fecha)
         except ValueError:
             self.fecha = None
-            self.errores.append(f'La fecha {fecha} no es una fecha válida')
+            self.errors.append(f'La fecha {fecha} no es una fecha válida')
         self.concepto = concepto
         self.tipo = tipo
         self.cantidad = cantidad
 
     @property
     def has_errors(self):
-        return len(self.errores) > 0
+        return len(self.errors) > 0
 
     def __str__(self):
         return f'{self.fecha}\t{self.concepto}\t{self.tipo}\t{self.cantidad}'
