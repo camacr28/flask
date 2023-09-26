@@ -17,7 +17,10 @@ header {
 }
 
 .navbar a,
-.navbar a:active .navbar a:focus .navbar a:visited .navbar a:hover {
+.navbar a:active,
+.navbar a:focus,
+.navbar a:visited,
+.navbar a:hover {
     color: white;
 }
 

@@ -19,7 +19,7 @@ def add_movement():
     """
     Crear movimiento nuevo y guardarlo en archivo .csv.
     """
-    return 'Agregar nuevo movimiento.'
+    return render_template('nuevo.html')
 
 
 @app.route('/modificar')
