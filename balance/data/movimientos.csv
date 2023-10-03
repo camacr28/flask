@@ -1,5 +1,15 @@
-fecha,concepto,ingreso_gasto,cantidad
+fecha,concepto,tipo,cantidad
+,Libro de trabajo con fechas en Python,G,25.50
 2023-09-24,Libro de POO,G,25.50
-2023-02-31,Libro de trabajo con fechas en Python,G,25.50
 2023-09-25,Libro de programación en Python,G,23.95
 2023-09-26,Regalo,I,50
+2023-10-02,Un gasto cualquiera,G,15
+2023-10-02,Prueba,G,10
+2023-10-05,Postre,G,3
+2023-10-04,Postre,G,3
+2023-10-04,Postre,G,3
+2023-09-28,asdfasdf,I,12
+2023-10-03,Postre,G,2.35
+2023-09-28,,,12.31
+2023-10-04,,,-3
+2023-10-04,,,1
